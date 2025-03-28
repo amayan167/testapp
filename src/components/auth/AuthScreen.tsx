@@ -57,10 +57,10 @@ const AuthScreen = ({
     <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-blue-50 to-blue-100 p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-blue-800">RunTracker</h1>
-          <p className="text-blue-600 mt-2">
-            Track your runs with minimal distractions
-          </p>
+          <h1 className="text-3xl font-bold text-blue-800">
+            Cool Runnings Fitness
+          </h1>
+          <p className="text-blue-600 mt-2">Track, Share, Connect</p>
           {isConvertingFromGuest && (
             <p className="text-sm bg-green-100 text-green-800 p-2 mt-2 rounded-md">
               Create an account to save your run history and access all

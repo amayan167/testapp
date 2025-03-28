@@ -118,7 +118,8 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
       {/* Header */}
       <div className="sticky top-0 z-10 bg-background border-b p-4">
         <div className="flex justify-between items-center">
-          <h1 className="text-xl font-bold">Run Tracker</h1>
+          <h1 className="text-xl font-bold">Cool Runnings Fitness</h1>
+          <p className="text-xs text-muted-foreground">Track, Share, Connect</p>
           <div className="flex gap-2">
             <Button variant="ghost" size="icon" onClick={handleViewProfile}>
               <User className="h-5 w-5" />
